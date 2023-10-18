@@ -1,0 +1,168 @@
+body{
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+
+    background: url(wall.jpg);
+    background: fill;
+    border-radius: 10px;
+}
+/* Add a container to center the content */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header{
+height: 47.720943450927734px;
+width: 1237px;
+left: 900px;
+top: 43px;
+border-radius: 900px;
+}
+
+.left-elements  nav ul  {
+list-style-type: none;
+}
+.left-elements nav ul li{
+  display: inline;
+  margin-right: 1opx
+
+}
+.left-elements nav ul li a{
+margin-right: 2px;
+padding: 5px;
+color: #f1efef;
+text-decoration: none;
+transition: transform 0.3s;
+
+}
+
+.left-elements:hover {
+  
+  transform: scale(1.1);
+}
+.right-elements nav ul{
+    list-style-type: none;
+    align-items: left;
+
+  }
+.right-elements nav ul li {
+  display: inline;
+  margin-left: 1px;
+}
+.right-elements nav ul li a{
+  align-items: left;
+  margin-left: 1px;
+  padding: 5px;
+  color: #f1efef;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+.right-elements:hover {
+  
+  transform: scale(1.1);
+}
+
+  li h3{
+    margin: 30px;
+    position: absolute;
+    width: 443px;
+    height: 139px;
+    left: 419px;
+    top: 175px;
+    
+
+    font-family: 'merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+li h5{
+    position: absolute;
+    width: 443px;
+    height: 139px;
+    left: 419px;
+    top: 175px;
+    padding:30px;
+
+    font-family: 'merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    color: hwb(160 98% 1%);
+}
+
+p{
+    position: absolute;
+    left: 47.42%;
+    right: 47.42%;
+    top: 6.11%;
+    bottom: 87.26%;
+
+    font-family: 'merriweather';
+    font-style: normal;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+
+.circle-1 {
+  margin: 20px;
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  left: 516px;
+  top: 360px;
+  border-radius: 800px;
+  background: rgb(7, 7, 7);
+  border: 2px solid #f6faf9;
+  overflow: hidden;
+}
+
+.circle-2 {
+  position: absolute;
+  width: 248px;
+  height: 248px;
+  left: 550px;
+  top: 400px;
+  border-radius: 800px;
+  
+  background: url(Ben.jpg);
+  border: 2px solid hsl(0, 17%, 93%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+  transition: transform 0.3s;
+}
+.circle-1:hover .circle-2 {
+  transform: scale(1.1); /* Apply scaling effect only on circle-2 when hovering over circle-1 */
+}
+h6 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  text-align: center;
+  
+  color: #f3ebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+ }
